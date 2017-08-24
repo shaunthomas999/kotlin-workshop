@@ -1,6 +1,3 @@
-package dClasses.exercises._01
-
-/*
  a) Write a Kotlin program to implement a class containing order details. Order detail should contain order ID,
  ordering person ID, product name, product category, product price and quantity. Both order ID and ordering person
  ID should not be allowed to change once it is set. Consider the following data as example.
@@ -13,17 +10,20 @@ package dClasses.exercises._01
  | 5        | 1         | iPhone charger| Electronics       | 70            | 1         |
 
  b) Implement the following interface that works with above data
+    
+```kotlin
 
-    interface OrderHelper {
+interface OrderHelper {
 
-        fun getTotalOrderCostForPerson(personId: Int): Double
+    fun getTotalOrderCostForPerson(personId: Int): Double
 
-        fun numberOfItemsWithCategory(categoryName: String): Int
+    fun numberOfItemsWithCategory(categoryName: String): Int
 
-        // Iterate over the order and when product category
-        // is 'Gaming' or 'Electronics' print 'GEGEGE'
-        // is 'Clothing' or 'Shoes' print 'shoooppiiing'
-        // else 'HUMMMMMM'
-        fun crazyPrinting()
-    }
- */
+    // Iterate over the order and when product category
+    // is 'Gaming' or 'Electronics' print 'GEGEGE'
+    // is 'Clothing' or 'Shoes' print 'shoooppiiing'
+    // else 'HUMMMMMM'
+    fun crazyPrinting()
+}
+
+```
