@@ -9,11 +9,11 @@ fun main(args: Array<String>) {
 
     val list = listOf(1, 2, 3)
 
-    // Normal for loop is not allowed i.e. for(i = 0; i < list.size(); i++)
-
     for (element in list) { // list has to an iterator with next() and hasNext() methods
         print(element)
     }
+
+    // Normal for loop is not allowed i.e. for(i = 0; i < list.size(); i++)
 
     for (i in 1..9) { // including 9
         print(i)
