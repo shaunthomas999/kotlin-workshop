@@ -1,9 +1,11 @@
 package eFunctions
 
+// Traditional way
 fun max1(a: Int, b: Int): Int { // No val or var
     return if (a < b) a else b
 }
 
+// Single way
 fun max2(a: Int, b: Int) = if (a < b) a else b
 
 fun sum(a: Int, b: Int, c: Int = 0) = a + b + c // // default
