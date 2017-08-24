@@ -16,7 +16,8 @@
 interface OrderHelper {
 
     fun getTotalOrderCostForPerson(personId: Int): Double
-
+    
+    // Optional
     fun numberOfItemsWithCategory(categoryName: String): Int
 
     // Iterate over the order and when product category
