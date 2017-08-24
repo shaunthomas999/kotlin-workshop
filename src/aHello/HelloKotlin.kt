@@ -3,11 +3,12 @@ package aHello
 /*
  * Advanced "Hello Kotlin!"
  */
+private val hello: String = "Hello" // Kotlin allows top-level properties and functions
+
 fun main(args: Array<String>) {
-    val hello: String = "Hello"
-    var kotlin: String? = "Kotlin"
-    kotlin += "!"
-    println(hello + " " + kotlin)
+    var world: String? = "World"
+    world += "!"
+    println(hello + " " + world)
 
     var helloObj: Hello = Hello()
     helloObj.helloMethod(7)

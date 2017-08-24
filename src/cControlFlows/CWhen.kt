@@ -1,4 +1,4 @@
-package cControlFlow
+package cControlFlows
 
 import java.lang.Integer.parseInt
 
