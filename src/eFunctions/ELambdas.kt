@@ -1,7 +1,5 @@
 package eFunctions
 
-import java.util.stream.Collectors.toList
-
 fun main(args: Array<String>) {
 
     /*
