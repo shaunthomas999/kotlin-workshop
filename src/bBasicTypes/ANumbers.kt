@@ -51,8 +51,8 @@ fun main(args: Array<String>) {
     val c: Int = 10000
     val boxedC: Int? = c
     val anotherBoxedC: Int? = c
-    print(boxedC == anotherBoxedC) // Prints 'true' - Checks value
-    print(boxedC === anotherBoxedC) // Prints 'false' - Checks type and value
+    println(boxedC == anotherBoxedC) // Prints 'true' - Checks value
+    println(boxedC === anotherBoxedC) // Prints 'false' - Checks type and value
 
 
 
