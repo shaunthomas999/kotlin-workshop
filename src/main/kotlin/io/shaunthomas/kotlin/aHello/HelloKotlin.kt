@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
   world += "!"
   println(hello + " " + world)
 
-  var helloObj: Hello = Hello()
+  var helloObj: Hello =
+    Hello()
   helloObj.helloMethod(7)
 }
