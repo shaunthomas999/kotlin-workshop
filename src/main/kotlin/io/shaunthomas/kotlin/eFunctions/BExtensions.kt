@@ -5,13 +5,13 @@ package io.shaunthomas.kotlin.eFunctions
  */
 
 fun String.secondChar(): Char {
-    return this.get(1)
+  return this.get(1)
 }
 
 fun String.secondChar2() = get(1) // this can be avoided
 
-fun main(args: Array<String>) {
-    println("Shaun".secondChar())
+fun main() {
+  println("Shaun".secondChar())
 
-    println("Shaun".secondChar2())
+  println("Shaun".secondChar2())
 }
