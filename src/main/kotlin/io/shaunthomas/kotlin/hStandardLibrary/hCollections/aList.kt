@@ -1,4 +1,4 @@
-package io.shaunthomas.kotlin.hCollections
+package io.shaunthomas.kotlin.hStandardLibrary.hCollections
 
 object aList {
 

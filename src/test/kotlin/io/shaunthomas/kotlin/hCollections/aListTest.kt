@@ -1,6 +1,7 @@
 package io.shaunthomas.kotlin.hCollections
 
 import io.kotest.matchers.collections.shouldHaveSize
+import io.shaunthomas.kotlin.hStandardLibrary.hCollections.aList
 import org.junit.jupiter.api.Test
 
 class aListTest {
