@@ -1,14 +1,17 @@
 package io.shaunthomas.kotlin.eFunctions
 
 /**
- * https://kotlinlang.org/docs/scope-functions.html
+ *
  *
  * let - it
  * run - this
  * apply - this
  * also - it
  *
- * See the table in the link above
+ * See the table in ref 1
+ *
+ * Ref:
+ * - 1 - https://kotlinlang.org/docs/scope-functions.html
  */
 fun scopeFunctionExamples() {
     println("::: scopeFunctionExamples :::")
