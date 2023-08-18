@@ -2,7 +2,7 @@ package io.shaunthomas.kotlin.cControlFlows
 
 import java.lang.Integer.parseInt
 
-fun main(args: Array<String>) {
+fun main() {
 
     /*
      * When (switch-case / if-else if chain) statements
@@ -32,9 +32,6 @@ fun main(args: Array<String>) {
         else -> print("none of the above")
     }
 
-
-
-
     /*
      * When expression
      *
@@ -44,9 +41,6 @@ fun main(args: Array<String>) {
         is String -> y.startsWith("prefix") // Smart casts
         else -> false
     }
-
-
-
 
     /*
      * if-else if chain
