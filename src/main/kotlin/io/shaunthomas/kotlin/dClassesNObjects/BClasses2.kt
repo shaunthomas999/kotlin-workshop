@@ -1,4 +1,4 @@
-package io.shaunthomas.kotlin.dClasses
+package io.shaunthomas.kotlin.dClassesNObjects
 
 class Player21(var name: String) { // primary constructor
     // secondary constructor

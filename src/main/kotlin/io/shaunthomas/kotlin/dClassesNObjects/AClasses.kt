@@ -1,4 +1,4 @@
-package io.shaunthomas.kotlin.dClasses
+package io.shaunthomas.kotlin.dClassesNObjects
 
 class Empty // Empty class
 

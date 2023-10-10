@@ -1,4 +1,4 @@
-package io.shaunthomas.kotlin.dClasses
+package io.shaunthomas.kotlin.dClassesNObjects
 
 open class Base {
     open var name: String = "Base" // 'open' for overriding. final by default.
